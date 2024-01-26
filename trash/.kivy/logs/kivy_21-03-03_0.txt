@@ -1,0 +1,38 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/python/June air hockey/trash/.kivy/logs/kivy_21-03-03_0.txt
+[WARNING] [Config      ] Upgrading configuration in progress.
+[WARNING] [Config      ] Older configuration version detected (0 instead of 21)
+[ERROR  ] Error when copying logo directory
+Traceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/__init__.py", line 338, in <module>
+    shutil.copytree(join(kivy_data_dir, 'logo'), icon_dir)
+  File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/shutil.py", line 554, in copytree
+    return _copytree(entries=entries, src=src, dst=dst, symlinks=symlinks,
+  File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/shutil.py", line 510, in _copytree
+    raise Error(errors)
+shutil.Error: [('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-128.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-128.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-512.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-512.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-16.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-16.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-32.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-32.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-48.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-48.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-24.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-24.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-256.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-256.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo/kivy-icon-64.png', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon/kivy-icon-64.png', '[Errno 1] Operation not permitted'), ('/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/data/logo', '/storage/emulated/0/python/June air hockey/trash/.kivy/icon', '[Errno 1] Operation not permitted')]
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, May 27 2020, 02:08:17) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Analysing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.1 V@145.0 (GIT@I2fa6926f94)'>
+[INFO   ] GL: OpenGL vendor <b'Qualcomm'>
+[INFO   ] GL: OpenGL renderer <b'Adreno (TM) 505'>
+[INFO   ] GL: OpenGL parsed version: 3, 1
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <16>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Text: Provider: sdl2
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[INFO   ] WindowSDL: exiting mainloop and closing.
